@@ -1,0 +1,62 @@
+name: sChat
+main: me.soldado.chat.Main
+version: 1.0
+depend: [SimpleClans]
+commands:
+   l:
+      description: Chat local.
+      usage: /<command>
+   g:
+      description: Chat global.
+      usage: /<command>
+   .:
+      description: Chat do clan.
+      usage: /<command>
+   a:
+      description: Chat dos aliados.
+      usage: /<command>
+   st:
+      description: Chat da staff.
+      usage: /<command>
+   alternartell:
+      description: Ligue ou desligue o tell.
+      usage: /<command>
+   tell:
+      description: Tell.
+      usage: /<command>
+   mutar:
+      description: Mutar um jogador.
+      usage: /<command>
+   desmutar:
+      description: Desmutar um jogador.
+      usage: /<command>
+   limparchat:
+      description: Limpe o seu chat.
+      usage: /<command>
+   limparchatglobal:
+      description: limpar o chat global.
+      usage: /<command>
+   bloquear:
+      description: Bloquear um jogador.
+      usage: /<command>
+   bloquearlista:
+      description: Lista os jogadores bloqueados.
+      usage: /<command>
+   desbloquear:
+      description: Desbloqueie um jogador.
+      usage: /<command>
+   alternarchatglobal:
+      description: Alterne o chat global.
+      usage: /<command>
+   preferencias:
+      description: Preferencias do chat.
+      usage: /<command>
+   bloquearchat:
+      description: Preferencias do chat.
+      usage: /<command>
+   desbloquearchat:
+      description: Preferencias do chat.
+      usage: /<command>
+   settag:
+      description: Setar tag.
+      usage: /<command>
